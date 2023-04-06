@@ -1,0 +1,36 @@
+commit 9ad9e917b7760fd785c7f8ec8377b3e34db3c02f (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: itsDavid8 <david8stankovski@gmail.com>
+Date:   Thu Apr 6 15:40:59 2023 +0200
+
+    Fix method sumEvenNumbers
+
+commit b89380e35691422f40f7a36d22fa69f93bbaa990
+Merge: 8658ce3 dcf1916
+Author: itsDavid8 <david8stankovski@gmail.com>
+Date:   Thu Apr 6 15:50:54 2023 +0200
+
+    Merge branch 'bug2'
+
+commit dcf1916903f2447db34f0a24c272d3d5d7716857 (origin/bug2, bug2)
+Author: itsDavid8 <david8stankovski@gmail.com>
+Date:   Thu Apr 6 15:39:25 2023 +0200
+
+    Fix wrong condition in filterOddNumbers
+
+commit 8658ce3a11525e5b178c72bcbdd8c0a763113889 (origin/bug1, bug1)
+Author: itsDavid8 <david8stankovski@gmail.com>
+Date:   Thu Apr 6 15:37:23 2023 +0200
+
+    Fix wrong loop for reading
+
+commit 42066a07dd84ff99637e5efba2c685d7a162cae4
+Author: itsDavid8 <david8stankovski@gmail.com>
+Date:   Thu Apr 6 15:31:16 2023 +0200
+
+    Add java class
+
+commit 9da759310c618b9e226f3ededf938935ab429fb8
+Author: itsDavid8 <david8stankovski@gmail.com>
+Date:   Thu Apr 6 15:28:38 2023 +0200
+
+    Initial commit

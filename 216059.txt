@@ -1,0 +1,103 @@
+1./
+2./
+3./
+4.
+mkdir SI_2023_lab1_216059
+cd SI_2023_lab1_216059
+git init
+5.
+git remote add origin https://github.com/itsDavid8/SI_2023_lab1_216059.git
+6.
+notepad README.md
+git add README.md
+git commit -m "Initial commit"
+7.
+code SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+8.
+git push origin master
+9.
+git branch bug1
+git branch bug2
+git branch bug3
+10.
+git checkout bug1
+11.
+code SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong loop for reading"
+12.
+git checkout bug2
+13.
+code SILab1.java
+git add SILab1.java
+git commit -m "Fix wrong condition in filterOddNumbers"
+14.
+git checkout bug3
+15.
+code SILab1.java
+git add SILab1.java
+git commit -m "Fix method sumEvenNumbers"
+16.
+git checkout bug1
+git push origin bug1
+git checkout bug2
+git push origin bug2
+git checkout bug3
+git push origin bug3
+17.
+git checkout master
+18.
+...\SI_2023_lab1_216059>git merge bug1
+Updating 42066a0..8658ce3
+Fast-forward
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Не се случија конфликти при спојување на master со bug1.
+Спојувањето се изврши според Fast-forward стратегијата.
+
+19.
+git push origin master
+20.
+...\SI_2023_lab1_216059>git merge bug2
+Auto-merging SILab1.java
+Merge made by the 'ort' strategy.
+ SILab1.java | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Не се случија конфликти при спојување на master со bug2.
+Спојувањето се изврши според recursive стратегијата.
+
+21.
+git push origin master
+22.
+git checkout bug3
+23.
+git rebase master
+24.
+git checkout master
+25.
+...\SI_2023_lab1_216059>git merge bug3
+Updating b89380e..9ad9e91
+Fast-forward
+ SILab1.java | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+Не се случија конфликти при спојување на master со bug3.
+Спојувањето се изврши според Fast-forward стратегијата.
+
+26.
+git push origin master
+git checkout bug3
+git push --force origin bug3
+27.
+git logs
+notepad logs.txt
+git add logs.txt
+git notepad 216059.txt
+git add 216059.txt
+git commit -m "Final commit"
+28.
+git push origin master
